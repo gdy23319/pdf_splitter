@@ -1,0 +1,14 @@
+# PDF分割工具依赖包
+# 安装命令: pip install -r requirements.txt
+
+# PDF处理核心库
+PyMuPDF>=1.23.0
+
+# 图像处理
+Pillow>=9.0.0
+
+# 数值计算
+numpy>=1.21.0
+
+# 可选：进度条显示
+tqdm>=4.64.0
