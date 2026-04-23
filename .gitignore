@@ -1,0 +1,33 @@
+# 虚拟环境
+venv/
+.venv/
+env/
+.env
+
+# Python 缓存文件
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# 项目特有的数据文件夹（防止上传大量的PDF或中转文件）
+before/
+after/
+*_split/
+*.pdf
+
+# 敏感文件/配置文件（如果你后续添加的话）
+config.ini
+secrets.yml
+.env.local
+
+# IDE和编辑器配置
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# 操作系统生成的缓存文件
+.DS_Store
+Thumbs.db
+ehthumbs.db

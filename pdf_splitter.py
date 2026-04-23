@@ -635,12 +635,10 @@ class PDFSplitter:
                 # 在保存完成后再关闭所有分割文档
                 # 注意：优化合并方法内部会处理文档关闭
                 
-                # 保存合并后的PDF到工作目录（输入文件所在目录）
+                # 保存合并后的PDF到输出目录
                 base_name = os.path.splitext(os.path.basename(self.input_path))[0]
                 merged_filename = f"{base_name}_split_merged.pdf"
-                # 合并文件直接保存到输入文件所在目录
-                input_dir = os.path.dirname(self.input_path)
-                merged_path = os.path.join(input_dir, merged_filename)
+                merged_path = os.path.join(self.output_dir, merged_filename)
                 
                 # 保存时也使用压缩选项
                 if optimize_output:

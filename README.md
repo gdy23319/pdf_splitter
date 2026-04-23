@@ -2,6 +2,13 @@
 
 一个强大的Python工具，用于将包含多个幻灯片的PDF页面自动分割成单独的页面，无需Adobe Acrobat。
 
+fork自https://github.com/lyk82468246/pdf_splitter
+
+运行`python .\batch_split.py`，把/before里的四合一pdf（默认2行2列）split并保存至/after。
+
+**事后会移除/before里的文件**
+
+
 ## 🆕 新功能亮点
 
 - 🗜️ **智能压缩**: 内置PDF压缩功能，可将文件大小减少90%以上，同时保持质量无损
