@@ -1,1 +1,0 @@
-python pdf_splitter.py ch2-handout.pdf --rows 2 --cols 2 --no-optimize --no-auto-detect  
